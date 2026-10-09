@@ -1,0 +1,1781 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1861716693740bc488f9c93ed7b8f074, type: 3}
+  m_Name: LevelPack
+  m_EditorClassIdentifier: 
+  levels:
+  - id: Level1
+    miniLevels:
+    - id: MiniLevel1
+      ammoCount: 5
+      blockSpawns:
+      - poolKey: wood
+        position: {x: -0.47, y: 2.5754406, z: 0.03815651}
+        rotationEuler: {x: 1.2722219e-15, y: -0, z: -0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 0.0119999945, y: 3.5754406, z: 0.03815651}
+        rotationEuler: {x: 1.2722219e-15, y: -0, z: -0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 0.53, y: 2.5754406, z: 0.03815651}
+        rotationEuler: {x: 1.2722219e-15, y: -0, z: -0}
+        scale: {x: 1, y: 1, z: 1}
+      platformSpawns:
+      - poolKey: platform
+        position: {x: 0, y: 2.0415049, z: -0.13}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+    - id: MiniLevel2
+      ammoCount: 6
+      blockSpawns:
+      - poolKey: hay
+        position: {x: -1.1800001, y: 2.6754408, z: 0.15499997}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 0.6, y: 0.6, z: 0.6}
+      - poolKey: hay
+        position: {x: 1.22, y: 2.6754408, z: 0.15499997}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 0.6, y: 0.6, z: 0.6}
+      - poolKey: hay
+        position: {x: 0, y: 5.0754404, z: 0.15499997}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 0.6, y: 0.6, z: 0.6}
+      - poolKey: hay
+        position: {x: 0.6, y: 3.8754406, z: 0.15499997}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 0.6, y: 0.6, z: 0.6}
+      - poolKey: hay
+        position: {x: -0.6, y: 3.8754406, z: 0.15499997}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 0.6, y: 0.6, z: 0.6}
+      - poolKey: hay
+        position: {x: 0.0200001, y: 2.6754408, z: 0.15499997}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 0.6, y: 0.6, z: 0.6}
+      platformSpawns:
+      - poolKey: platform
+        position: {x: 0, y: 2.041505, z: -0.13}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+    - id: MiniLevel3
+      ammoCount: 6
+      blockSpawns:
+      - poolKey: glass
+        position: {x: -0.44985068, y: 3.5754404, z: -0.31008768}
+        rotationEuler: {x: 1.2722219e-15, y: -0, z: -0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: glass
+        position: {x: -1.4498504, y: 2.5754404, z: -0.31008768}
+        rotationEuler: {x: 1.2722219e-15, y: -0, z: -0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: glass
+        position: {x: 0.033, y: 4.5754404, z: -0.31008768}
+        rotationEuler: {x: 1.2722219e-15, y: -0, z: -0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: glass
+        position: {x: 0.5501493, y: 2.5754404, z: -0.31008768}
+        rotationEuler: {x: 1.2722219e-15, y: -0, z: -0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: glass
+        position: {x: -0.44985044, y: 2.5754404, z: -0.31008768}
+        rotationEuler: {x: 1.2722219e-15, y: -0, z: -0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: glass
+        position: {x: 1.5501493, y: 2.5754404, z: -0.31008768}
+        rotationEuler: {x: 1.2722219e-15, y: -0, z: -0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: glass
+        position: {x: 0.5501493, y: 3.5754404, z: -0.31008768}
+        rotationEuler: {x: 1.2722219e-15, y: -0, z: -0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: glass
+        position: {x: -1.4498504, y: 2.5754404, z: 0.6899123}
+        rotationEuler: {x: 1.2722219e-15, y: -0, z: -0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: glass
+        position: {x: 1.5501493, y: 2.5754404, z: 0.6899123}
+        rotationEuler: {x: 1.2722219e-15, y: -0, z: -0}
+        scale: {x: 1, y: 1, z: 1}
+      platformSpawns:
+      - poolKey: platform
+        position: {x: 0, y: 2.0415049, z: -0.13}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+    - id: MiniLevel4
+      ammoCount: 10
+      blockSpawns:
+      - poolKey: wood
+        position: {x: -0.94985044, y: 2.5754406, z: 0.18991244}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 0.05014956, y: 2.5754406, z: -0.81008756}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 0.05014956, y: 2.5754406, z: 1.1899124}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 1.0501496, y: 3.5754406, z: -0.81008756}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: prizm
+        position: {x: 1.0501496, y: 4.5754404, z: 1.1899124}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 1.0501496, y: 2.5754406, z: -0.81008756}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: prizm
+        position: {x: -0.94985044, y: 4.5754404, z: -0.81008756}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 1.0501496, y: 2.5754406, z: 1.1899124}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 1.0501496, y: 3.5754406, z: 1.1899124}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -0.94985044, y: 3.5754406, z: -0.81008756}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -0.94985044, y: 2.5754406, z: -0.81008756}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -0.94985044, y: 3.5754406, z: 1.1899124}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -0.94985044, y: 2.5754406, z: 1.1899124}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: prizm
+        position: {x: -0.94985044, y: 4.5754404, z: 1.1899124}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: prizm
+        position: {x: 1.0501496, y: 4.5754404, z: -0.81008756}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 1.0501496, y: 2.5754406, z: 0.18991244}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      platformSpawns:
+      - poolKey: squarePlatform
+        position: {x: 0, y: 2.0415049, z: -0.13}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+    - id: MiniLevel5
+      ammoCount: 45
+      blockSpawns:
+      - poolKey: wood
+        position: {x: 0.55014944, y: 2.5754406, z: -1.3100876}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -2.4498506, y: 5.5754404, z: 1.6899124}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -1.4498507, y: 6.5754404, z: 0.68991244}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -0.44985056, y: 5.5754404, z: 1.6899124}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 1.5501496, y: 7.5754404, z: -0.31008756}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -2.4498506, y: 3.5754406, z: -0.31008756}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 2.5501494, y: 7.5754404, z: -0.31008756}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -0.44985056, y: 5.5754404, z: -0.31008756}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -1.4498503, y: 7.5754404, z: -1.3100876}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 1.5501494, y: 2.5754406, z: 0.68991244}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 2.5501494, y: 7.5754404, z: -1.3100876}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 1.5501494, y: 3.5754406, z: -1.3100876}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 2.5501494, y: 2.5754406, z: -1.3100876}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -0.44985056, y: 7.5754404, z: -1.3100876}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 2.5501494, y: 5.5754404, z: 1.6899124}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 2.5501494, y: 4.5754404, z: 0.68991244}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 0.5501493, y: 6.5754404, z: 0.68991244}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 0.55014956, y: 5.5754404, z: 1.6899124}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -2.4498506, y: 4.5754404, z: 1.6899124}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 2.5501494, y: 4.5754404, z: -1.3100876}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -2.4498506, y: 7.5754404, z: -1.3100876}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 0.5501493, y: 5.5754404, z: -1.3100876}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 0.5501493, y: 4.5754404, z: -1.3100876}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -2.4498506, y: 6.5754404, z: 0.68991244}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -1.4498502, y: 5.5754404, z: -0.31008756}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -2.4498506, y: 3.5754406, z: 0.68991244}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 0.55014956, y: 3.5754406, z: -0.31008756}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -1.4498506, y: 6.5754404, z: 1.6899124}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 1.5501493, y: 7.5754404, z: -1.3100876}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 1.5501496, y: 6.5754404, z: -0.31008744}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 0.55014944, y: 3.5754406, z: -1.3100876}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -1.4498504, y: 7.5754404, z: 1.6899124}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -0.44985056, y: 6.5754404, z: 0.68991244}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -0.44985056, y: 7.5754404, z: -0.31008756}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 2.5501494, y: 2.5754406, z: -0.31008756}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -2.4498506, y: 4.5754404, z: -1.3100876}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 0.5501493, y: 4.5754404, z: -0.31008756}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 1.5501496, y: 3.5754406, z: -0.31008756}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 2.5501494, y: 3.5754406, z: -0.31008756}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 0.5501493, y: 5.5754404, z: 0.68991244}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -1.4498504, y: 2.5754406, z: 1.6899124}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -2.4498506, y: 2.5754406, z: -1.3100876}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -1.4498502, y: 3.5754406, z: -1.3100876}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -2.4498506, y: 3.5754406, z: -1.3100876}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 1.5501493, y: 6.5754404, z: 0.68991244}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -2.4498506, y: 5.5754404, z: -0.31008756}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -0.44985044, y: 3.5754406, z: 1.6899124}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -2.4498506, y: 7.5754404, z: 0.68991244}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -1.4498503, y: 3.5754406, z: 1.6899124}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 1.5501493, y: 4.5754404, z: 0.68991244}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -0.44985044, y: 2.5754406, z: -1.3100876}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 1.5501493, y: 4.5754404, z: -1.3100876}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 2.5501494, y: 4.5754404, z: 1.6899124}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 1.5501497, y: 3.5754406, z: 0.68991244}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -1.4498502, y: 7.5754404, z: -0.31008756}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 0.5501493, y: 6.5754404, z: -1.3100876}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 0.55014944, y: 2.5754406, z: -0.31008756}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 2.5501494, y: 5.5754404, z: -1.3100876}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -0.44985044, y: 2.5754406, z: 1.6899124}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 0.55014944, y: 3.5754406, z: 0.68991244}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -1.4498503, y: 5.5754404, z: -1.3100876}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 0.55014944, y: 2.5754406, z: 0.68991244}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -2.4498506, y: 4.5754404, z: -0.31008756}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 2.5501494, y: 6.5754404, z: -0.31008756}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 0.55014944, y: 5.5754404, z: -0.31008756}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 2.5501494, y: 2.5754406, z: 0.68991244}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -0.44985056, y: 4.5754404, z: -1.3100876}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -1.4498506, y: 6.5754404, z: -0.31008756}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -2.4498506, y: 2.5754406, z: 1.6899124}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 2.5501494, y: 4.5754404, z: -0.31008756}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -0.44985056, y: 6.5754404, z: -1.3100876}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 0.55014944, y: 6.5754404, z: 1.6899124}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 1.5501496, y: 2.5754406, z: -0.31008744}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 0.5501493, y: 6.5754404, z: -0.31008756}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 0.5501497, y: 3.5754406, z: 1.6899124}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -2.4498506, y: 7.5754404, z: -0.31008756}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 1.5501493, y: 5.5754404, z: -1.3100876}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 0.5501493, y: 4.5754404, z: 0.68991244}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 1.5501496, y: 6.5754404, z: 1.6899124}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -0.44985044, y: 3.5754406, z: -0.31008756}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 0.55014944, y: 7.5754404, z: -0.31008756}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 1.5501496, y: 4.5754404, z: -0.31008744}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -0.44985056, y: 4.5754404, z: 0.68991244}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 1.5501493, y: 6.5754404, z: -1.3100876}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 2.5501494, y: 6.5754404, z: -1.3100876}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 1.5501496, y: 2.5754406, z: 1.6899124}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 2.5501494, y: 6.5754404, z: 0.68991244}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -2.4498506, y: 2.5754406, z: -0.31008756}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 1.5501496, y: 5.5754404, z: -0.31008756}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 0.55014956, y: 2.5754406, z: 1.6899124}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -1.4498506, y: 2.5754406, z: -1.3100876}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 2.5501494, y: 5.5754404, z: -0.31008756}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -1.4498504, y: 2.5754406, z: -0.31008756}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 1.5501496, y: 7.5754404, z: 1.6899124}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 0.5501493, y: 7.5754404, z: -1.3100876}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 1.5501496, y: 5.5754404, z: 1.6899124}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 1.5501496, y: 4.5754404, z: 1.6899124}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -2.4498506, y: 6.5754404, z: -1.3100876}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -1.4498507, y: 4.5754404, z: -1.3100876}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -0.44985044, y: 3.5754406, z: -1.3100876}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 1.5501496, y: 7.5754404, z: 0.68991244}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -2.4498506, y: 3.5754406, z: 1.6899124}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -2.4498506, y: 2.5754406, z: 0.68991244}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 2.5501494, y: 3.5754406, z: 1.6899124}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -0.44985056, y: 6.5754404, z: -0.31008756}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -0.44985056, y: 7.5754404, z: 0.68991244}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -0.44985056, y: 5.5754404, z: 0.68991244}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -1.4498501, y: 3.5754406, z: 0.68991244}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -0.44985056, y: 5.5754404, z: -1.3100876}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 2.5501494, y: 6.5754404, z: 1.6899124}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -0.44985056, y: 6.5754404, z: 1.6899124}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 0.5501493, y: 7.5754404, z: 0.68991244}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -2.4498506, y: 6.5754404, z: -0.31008756}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -1.4498502, y: 5.5754404, z: 0.68991244}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -0.44985056, y: 4.5754404, z: 1.6899124}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -2.4498506, y: 5.5754404, z: 0.68991244}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -0.44985056, y: 4.5754404, z: -0.31008756}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 1.5501496, y: 3.5754406, z: 1.6899124}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 2.5501494, y: 5.5754404, z: 0.68991244}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 2.5501494, y: 3.5754406, z: -1.3100876}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -0.44985044, y: 2.5754406, z: 0.68991244}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 2.5501494, y: 7.5754404, z: 1.6899124}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 2.5501494, y: 3.5754406, z: 0.68991244}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -1.4498507, y: 6.5754404, z: -1.3100876}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 1.5501496, y: 5.5754404, z: 0.68991244}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -1.4498507, y: 4.5754404, z: 0.68991244}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 1.5501494, y: 2.5754406, z: -1.3100876}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -2.4498506, y: 7.5754404, z: 1.6899124}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -2.4498506, y: 5.5754404, z: -1.3100876}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -0.44985056, y: 7.5754404, z: 1.6899124}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -1.4498506, y: 4.5754404, z: -0.31008756}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 2.5501494, y: 7.5754404, z: 0.68991244}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -1.4498501, y: 3.5754406, z: -0.31008756}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -1.4498502, y: 7.5754404, z: 0.68991244}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -1.4498506, y: 2.5754406, z: 0.68991244}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 0.55014944, y: 4.5754404, z: 1.6899124}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -0.44985044, y: 3.5754406, z: 0.68991244}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -0.44985044, y: 2.5754406, z: -0.31008756}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -2.4498506, y: 6.5754404, z: 1.6899124}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -2.4498506, y: 4.5754404, z: 0.68991244}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -1.4498506, y: 4.5754404, z: 1.6899124}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -1.4498504, y: 5.5754404, z: 1.6899124}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 0.55014956, y: 7.5754404, z: 1.6899124}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 2.5501494, y: 2.5754406, z: 1.6899124}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      platformSpawns:
+      - poolKey: bigPlatform
+        position: {x: 0, y: 2.0415049, z: -0.13}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+  - id: Level2
+    miniLevels:
+    - id: MiniLevel1
+      ammoCount: 8
+      blockSpawns:
+      - poolKey: wood
+        position: {x: -0.94985044, y: 2.5754406, z: 0.18991244}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 1.0501496, y: 2.5754406, z: -0.81008756}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 0.55014956, y: 3.5754406, z: 0.6679125}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 1.0501496, y: 2.5754406, z: 0.18991244}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 1.0501496, y: 2.5754406, z: 1.1899124}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 0.55014956, y: 3.5754406, z: -0.33208752}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -0.94985044, y: 2.5754406, z: -0.81008756}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 0.05014956, y: 2.5754406, z: 1.1899124}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -0.44985044, y: 3.5754406, z: -0.33208752}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 0.05014956, y: 2.5754406, z: -0.81008756}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 0.05014956, y: 2.5754406, z: 0.18991244}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 0.060149558, y: 4.5754404, z: 0.16891241}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -0.44985044, y: 3.5754406, z: 0.6679125}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -0.94985044, y: 2.5754406, z: 1.1899124}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      platformSpawns:
+      - poolKey: squarePlatform
+        position: {x: 0, y: 2.0415049, z: -0.13}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+    - id: MiniLevel2
+      ammoCount: 16
+      blockSpawns:
+      - poolKey: wood
+        position: {x: -0.44985056, y: 2.5754406, z: -0.31008756}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 0.55014956, y: 2.5754406, z: 1.6899124}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 0.05014956, y: 3.5754406, z: 1.1899124}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 0.50014955, y: 4.5754404, z: 0.7169124}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -0.49985045, y: 4.5754404, z: 0.7169124}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 0.05014956, y: 3.5754406, z: 0.18991244}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -0.94985044, y: 3.5754406, z: 1.1899124}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -0.44985056, y: 2.5754406, z: 0.68991244}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -0.94985044, y: 3.5754406, z: 0.18991244}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 0.05014956, y: 3.5754406, z: -0.81008756}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 1.5501496, y: 2.5754406, z: -0.31008756}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -0.44985056, y: 2.5754406, z: 1.6899124}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 0.50014955, y: 4.5754404, z: -0.28308755}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -1.4498504, y: 2.5754406, z: 1.6899124}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 1.0501496, y: 3.5754406, z: -0.81008756}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -0.94985044, y: 3.5754406, z: -0.81008756}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 0.55014944, y: 2.5754406, z: -0.31008756}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 1.0501496, y: 3.5754406, z: 0.18991244}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -0.44985056, y: 2.5754406, z: -1.3100876}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 1.5501496, y: 2.5754406, z: 0.68991244}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 1.5501493, y: 2.5754406, z: -1.3100876}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 0.5501493, y: 2.5754406, z: 0.68991244}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -1.4498502, y: 2.5754406, z: -0.31008756}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 0.0101495385, y: 5.5754404, z: 0.21791232}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -0.49985045, y: 4.5754404, z: -0.28308755}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -1.4498502, y: 2.5754406, z: -1.3100876}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 1.5501496, y: 2.5754406, z: 1.6899124}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 0.5501493, y: 2.5754406, z: -1.3100876}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -1.4498502, y: 2.5754406, z: 0.68991244}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 1.0501496, y: 3.5754406, z: 1.1899124}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      platformSpawns:
+      - poolKey: bigPlatform
+        position: {x: 0, y: 2.0415049, z: -0.13}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+    - id: MiniLevel3
+      ammoCount: 6
+      blockSpawns:
+      - poolKey: wood
+        position: {x: -1.113, y: 2.575295, z: 0.2844465}
+        rotationEuler: {x: 1.2722219e-15, y: -0, z: -0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: prizm
+        position: {x: -1.113, y: 3.575295, z: 0.2844465}
+        rotationEuler: {x: -0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 1.18, y: 2.575295, z: 0.2844465}
+        rotationEuler: {x: 1.2722219e-15, y: -0, z: -0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: prizm
+        position: {x: 1.18, y: 3.575295, z: 0.28444648}
+        rotationEuler: {x: -0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: hay
+        position: {x: 0.03, y: 5.07, z: 0.177}
+        rotationEuler: {x: -0, y: 0, z: 0}
+        scale: {x: 0.6, y: 0.6, z: 0.6}
+      - poolKey: explosive
+        position: {x: 0.03708184, y: 2.0764556, z: 0.138}
+        rotationEuler: {x: -0.000004325711, y: 0, z: 0}
+        scale: {x: 50, y: 40.3, z: 50}
+      - poolKey: hay
+        position: {x: 0.03, y: 6.279, z: 0.177}
+        rotationEuler: {x: -0, y: 0, z: 0}
+        scale: {x: 0.6, y: 0.6, z: 0.6}
+      - poolKey: prizm
+        position: {x: 0.025, y: 7.3789997, z: 0.1573847}
+        rotationEuler: {x: -0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: hay
+        position: {x: 0.03, y: 3.8677568, z: 0.177}
+        rotationEuler: {x: -0, y: 0, z: 0}
+        scale: {x: 0.6, y: 0.6, z: 0.6}
+      platformSpawns:
+      - poolKey: platform
+        position: {x: 0, y: 2.0415049, z: -0.13}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+    - id: MiniLevel4
+      ammoCount: 10
+      blockSpawns:
+      - poolKey: hay
+        position: {x: 1.766, y: 2.6754408, z: -0.923}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 0.6, y: 0.6, z: 0.6}
+      - poolKey: hay
+        position: {x: 1.22, y: 3.8754408, z: 0.15499997}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 0.6, y: 0.6, z: 0.6}
+      - poolKey: hay
+        position: {x: -1.858, y: 2.6754408, z: -0.923}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 0.6, y: 0.6, z: 0.6}
+      - poolKey: hay
+        position: {x: -0.65400004, y: 2.6754408, z: -0.923}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 0.6, y: 0.6, z: 0.6}
+      - poolKey: hay
+        position: {x: 1.766, y: 2.6754408, z: 1.3}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 0.6, y: 0.6, z: 0.6}
+      - poolKey: hay
+        position: {x: 0.55200005, y: 2.6754408, z: 1.255}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 0.6, y: 0.6, z: 0.6}
+      - poolKey: explosive
+        position: {x: 0.014000058, y: 3.2766037, z: 0.167}
+        rotationEuler: {x: -0.000004325711, y: 0, z: 0}
+        scale: {x: 50, y: 39.8, z: 50}
+      - poolKey: hay
+        position: {x: 1.22, y: 2.6754408, z: 0.15499997}
+        rotationEuler: {x: -0, y: 0, z: 0}
+        scale: {x: 0.6, y: 0.6, z: 0.6}
+      - poolKey: hay
+        position: {x: 0.55200005, y: 2.6754408, z: -0.923}
+        rotationEuler: {x: -0, y: 0, z: 0}
+        scale: {x: 0.6, y: 0.6, z: 0.6}
+      - poolKey: hay
+        position: {x: 2.42, y: 2.6754408, z: 0.15499997}
+        rotationEuler: {x: -0, y: 0, z: 0}
+        scale: {x: 0.6, y: 0.6, z: 0.6}
+      - poolKey: hay
+        position: {x: -0.6, y: 5.075441, z: 0.15499997}
+        rotationEuler: {x: -0, y: 0, z: 0}
+        scale: {x: 0.6, y: 0.6, z: 0.6}
+      - poolKey: hay
+        position: {x: 0, y: 6.2754407, z: 0.15499997}
+        rotationEuler: {x: -0, y: 0, z: 0}
+        scale: {x: 0.6, y: 0.6, z: 0.6}
+      - poolKey: hay
+        position: {x: -1.858, y: 2.6754408, z: 1.2999998}
+        rotationEuler: {x: -0, y: 0, z: 0}
+        scale: {x: 0.6, y: 0.6, z: 0.6}
+      - poolKey: hay
+        position: {x: -2.3799999, y: 2.6754408, z: 0.15499997}
+        rotationEuler: {x: -0, y: 0, z: 0}
+        scale: {x: 0.6, y: 0.6, z: 0.6}
+      - poolKey: hay
+        position: {x: -0.65400004, y: 2.6754408, z: 1.255}
+        rotationEuler: {x: -0, y: 0, z: 0}
+        scale: {x: 0.6, y: 0.6, z: 0.6}
+      - poolKey: hay
+        position: {x: 0.6, y: 5.075441, z: 0.15499997}
+        rotationEuler: {x: -0, y: 0, z: 0}
+        scale: {x: 0.6, y: 0.6, z: 0.6}
+      - poolKey: hay
+        position: {x: -1.1800001, y: 2.6754408, z: 0.15499997}
+        rotationEuler: {x: -0, y: 0, z: 0}
+        scale: {x: 0.6, y: 0.6, z: 0.6}
+      - poolKey: hay
+        position: {x: -1.1800001, y: 3.8754408, z: 0.15499997}
+        rotationEuler: {x: -0, y: 0, z: 0}
+        scale: {x: 0.6, y: 0.6, z: 0.6}
+      - poolKey: hay
+        position: {x: 0.0200001, y: 2.6754408, z: 0.15499997}
+        rotationEuler: {x: -0, y: 0, z: 0}
+        scale: {x: 0.6, y: 0.6, z: 0.6}
+      platformSpawns:
+      - poolKey: bigPlatform
+        position: {x: 0, y: 2.0415049, z: -0.13}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+    - id: MiniLevel5
+      ammoCount: 15
+      blockSpawns:
+      - poolKey: explosive
+        position: {x: 0.0841496, y: 2.0934405, z: 0.17091244}
+        rotationEuler: {x: -0.000004325711, y: 0, z: 0}
+        scale: {x: 40.15, y: 32.3609, z: 40.15}
+      - poolKey: wood
+        position: {x: -0.94985044, y: 2.5754406, z: -0.81008756}
+        rotationEuler: {x: -0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: prizm
+        position: {x: 1.0501496, y: 4.5754404, z: -0.81008756}
+        rotationEuler: {x: -0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 0.05014956, y: 3.5754406, z: -0.81008756}
+        rotationEuler: {x: -0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: glass
+        position: {x: 1.0501496, y: 3.5754406, z: -0.81008756}
+        rotationEuler: {x: 1.2722219e-15, y: -0, z: -0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 1.0501496, y: 2.5754406, z: -0.81008756}
+        rotationEuler: {x: -0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: glass
+        position: {x: 1.0501496, y: 3.5754406, z: 1.1899124}
+        rotationEuler: {x: 1.2722219e-15, y: -0, z: -0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 0.05014956, y: 3.5754406, z: 1.1899124}
+        rotationEuler: {x: -0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -0.94985044, y: 2.5754406, z: 1.1899124}
+        rotationEuler: {x: -0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: glass
+        position: {x: -0.94985044, y: 3.5754406, z: 1.1899124}
+        rotationEuler: {x: 1.2722219e-15, y: -0, z: -0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: glass
+        position: {x: 1.0501496, y: 2.5754406, z: 0.18991244}
+        rotationEuler: {x: 1.2722219e-15, y: -0, z: -0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: prizm
+        position: {x: -0.94985044, y: 4.5754404, z: 1.1899124}
+        rotationEuler: {x: -0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: prizm
+        position: {x: -0.94985044, y: 4.5754404, z: -0.81008756}
+        rotationEuler: {x: -0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: prizm
+        position: {x: 1.0501496, y: 4.5754404, z: 1.1899123}
+        rotationEuler: {x: -0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: glass
+        position: {x: -0.94985044, y: 2.5754406, z: 0.18991244}
+        rotationEuler: {x: 1.2722219e-15, y: -0, z: -0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -0.94985044, y: 3.5754406, z: 0.18991244}
+        rotationEuler: {x: -0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 1.0501496, y: 2.5754406, z: 1.1899124}
+        rotationEuler: {x: -0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: glass
+        position: {x: 0.05014956, y: 2.5754406, z: 1.1899124}
+        rotationEuler: {x: 1.2722219e-15, y: -0, z: -0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 1.0501496, y: 3.5754406, z: 0.18991244}
+        rotationEuler: {x: -0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: glass
+        position: {x: 0.05014956, y: 2.5754406, z: -0.81008756}
+        rotationEuler: {x: 1.2722219e-15, y: -0, z: -0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: glass
+        position: {x: -0.94985044, y: 3.5754406, z: -0.81008756}
+        rotationEuler: {x: 1.2722219e-15, y: -0, z: -0}
+        scale: {x: 1, y: 1, z: 1}
+      platformSpawns:
+      - poolKey: squarePlatform
+        position: {x: 0, y: 2.0415049, z: -0.13}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+  - id: Level3
+    miniLevels:
+    - id: MiniLevel1
+      ammoCount: 15
+      blockSpawns:
+      - poolKey: wood
+        position: {x: -0.64653754, y: 2.5754406, z: 0.21167338}
+        rotationEuler: {x: -0, y: 315, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 2.9977803, y: 2.5754406, z: 0.826858}
+        rotationEuler: {x: -0, y: 44.999996, z: -0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 2.9977803, y: 2.5754406, z: -0.5873556}
+        rotationEuler: {x: -0, y: 44.999996, z: -0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -1.338088, y: 3.5754406, z: 0.19611698}
+        rotationEuler: {x: -0, y: 315, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 1.5835667, y: 2.5754406, z: 0.826858}
+        rotationEuler: {x: -0, y: 44.999996, z: -0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 2.2751172, y: 3.5754406, z: -0.60291195}
+        rotationEuler: {x: -0, y: 44.999996, z: -0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -2.767858, y: 2.5754406, z: 0.91878027}
+        rotationEuler: {x: -0, y: 315, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -2.0451949, y: 3.5754406, z: -0.5109898}
+        rotationEuler: {x: -0, y: 315, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -1.3536444, y: 2.5754406, z: -0.49543348}
+        rotationEuler: {x: -0, y: 315, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -2.0607512, y: 2.5754406, z: 0.21167332}
+        rotationEuler: {x: -0, y: 315, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 3.704887, y: 2.5754406, z: 0.119751096}
+        rotationEuler: {x: -0, y: 44.999996, z: -0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 2.2906733, y: 2.5754406, z: 1.5339649}
+        rotationEuler: {x: -0, y: 44.999996, z: -0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 2.2906735, y: 2.5754406, z: 0.119751155}
+        rotationEuler: {x: -0, y: 44.999996, z: -0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -3.4749646, y: 2.5754406, z: 0.21167338}
+        rotationEuler: {x: -0, y: 315, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 2.2906735, y: 2.5754406, z: -1.2944624}
+        rotationEuler: {x: -0, y: 44.999996, z: -0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -2.767858, y: 2.5754406, z: -0.49543345}
+        rotationEuler: {x: -0, y: 315, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 1.5680103, y: 3.5754406, z: 0.10419476}
+        rotationEuler: {x: -0, y: 44.999996, z: -0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 2.982224, y: 3.5754406, z: 0.10419482}
+        rotationEuler: {x: -0, y: 44.999996, z: -0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 0.87645984, y: 2.5754406, z: 0.119751096}
+        rotationEuler: {x: -0, y: 44.999996, z: -0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 1.5835667, y: 2.5754406, z: -0.5873557}
+        rotationEuler: {x: -0, y: 44.999996, z: -0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -2.0451949, y: 3.5754406, z: 0.90322393}
+        rotationEuler: {x: -0, y: 315, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -1.3536443, y: 2.5754406, z: 0.91878027}
+        rotationEuler: {x: -0, y: 315, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -2.060751, y: 2.5754406, z: 1.6258872}
+        rotationEuler: {x: -0, y: 315, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -2.0607512, y: 2.5754406, z: -1.2025403}
+        rotationEuler: {x: -0, y: 315, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -2.0388308, y: 4.5754404, z: 0.20389503}
+        rotationEuler: {x: -0, y: 315, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 2.2828953, y: 4.5754404, z: 0.09783071}
+        rotationEuler: {x: -0, y: 44.999996, z: -0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 2.275117, y: 3.5754406, z: 0.81130165}
+        rotationEuler: {x: -0, y: 44.999996, z: -0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -2.7523017, y: 3.5754406, z: 0.19611704}
+        rotationEuler: {x: -0, y: 315, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      platformSpawns:
+      - poolKey: squarePlatform
+        position: {x: -1.87, y: 2.0415049, z: -0.05}
+        rotationEuler: {x: 0, y: 315, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: squarePlatform
+        position: {x: 2.029, y: 2.0415049, z: -0.071}
+        rotationEuler: {x: -0, y: 44.999996, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+    - id: MiniLevel2
+      ammoCount: 9
+      blockSpawns:
+      - poolKey: wood
+        position: {x: -0.5654335, y: 3.5974407, z: 0.21064442}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: prizm
+        position: {x: 0.93014944, y: 2.5754406, z: 0.21064448}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: prizm
+        position: {x: 0.4345665, y: 4.5974407, z: 0.21064442}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 0.43456644, y: 3.5974407, z: 0.21064448}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: prizm
+        position: {x: 0.43456644, y: 2.5974407, z: 0.21064448}
+        rotationEuler: {x: -0, y: 180, z: 180}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: prizm
+        position: {x: -0.5654335, y: 4.5974407, z: 0.21064442}
+        rotationEuler: {x: -0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: prizm
+        position: {x: -0.069850504, y: 2.5754406, z: 0.21064448}
+        rotationEuler: {x: -0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: prizm
+        position: {x: -0.5654335, y: 2.5974407, z: 0.21064448}
+        rotationEuler: {x: -0, y: 180, z: 180}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: prizm
+        position: {x: -1.0698504, y: 2.5754406, z: 0.21064448}
+        rotationEuler: {x: -0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      platformSpawns:
+      - poolKey: platform
+        position: {x: -0.08, y: 2.0415049, z: -0.13}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+    - id: MiniLevel3
+      ammoCount: 20
+      blockSpawns:
+      - poolKey: wood
+        position: {x: -0.94985056, y: 2.5754406, z: -0.68008757}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: prizm
+        position: {x: -2.9498506, y: 4.5754404, z: 0.31991243}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 1.0501494, y: 2.5754406, z: 3.3199124}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 3.0501494, y: 3.5754406, z: 1.3199124}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: explosive
+        position: {x: 0.05014944, y: 2.1074405, z: 2.2859125}
+        rotationEuler: {x: -0.000004325711, y: 0, z: 0}
+        scale: {x: 39.78, y: 32.06268, z: 39.78}
+      - poolKey: prizm
+        position: {x: -1.9498506, y: 3.5754406, z: -0.68008757}
+        rotationEuler: {x: -0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: glass
+        position: {x: 0.05014944, y: 2.5754406, z: 1.3199124}
+        rotationEuler: {x: 1.2722219e-15, y: -0, z: -0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 1.0501494, y: 2.5754406, z: 1.3199124}
+        rotationEuler: {x: -0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -0.94985056, y: 2.5754406, z: 1.3199124}
+        rotationEuler: {x: -0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: prizm
+        position: {x: 1.0501494, y: 4.5754404, z: 0.31991243}
+        rotationEuler: {x: -0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: glass
+        position: {x: 0.05014944, y: 2.5754406, z: 3.3199124}
+        rotationEuler: {x: 1.2722219e-15, y: -0, z: -0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: glass
+        position: {x: 2.0501494, y: 2.5754406, z: -0.68008757}
+        rotationEuler: {x: 1.2722219e-15, y: -0, z: -0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -2.9498506, y: 2.5754406, z: 0.31991243}
+        rotationEuler: {x: -0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 3.0501494, y: 3.5754406, z: 0.31991243}
+        rotationEuler: {x: -0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 1.0501494, y: 3.5754406, z: 3.3199124}
+        rotationEuler: {x: -0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -0.94985056, y: 3.5754406, z: 1.3199124}
+        rotationEuler: {x: -0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 1.0501494, y: 3.5754406, z: 0.31991243}
+        rotationEuler: {x: -0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: glass
+        position: {x: -1.9498506, y: 2.5754406, z: -0.68008757}
+        rotationEuler: {x: 1.2722219e-15, y: -0, z: -0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -0.94985056, y: 3.5754406, z: 3.3199124}
+        rotationEuler: {x: -0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -2.9498506, y: 3.5754406, z: 0.31991243}
+        rotationEuler: {x: -0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 1.0501494, y: 3.5754406, z: 2.3199124}
+        rotationEuler: {x: -0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: glass
+        position: {x: -1.9498506, y: 2.5754406, z: 1.3199124}
+        rotationEuler: {x: 1.2722219e-15, y: -0, z: -0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: prizm
+        position: {x: 3.0501494, y: 4.5754404, z: 0.31991243}
+        rotationEuler: {x: -0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -0.94985056, y: 3.5754406, z: -0.68008757}
+        rotationEuler: {x: -0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 3.0501494, y: 2.5754406, z: 1.3199124}
+        rotationEuler: {x: -0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 1.0501494, y: 2.5754406, z: 2.3199124}
+        rotationEuler: {x: -0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: prizm
+        position: {x: 0.05014944, y: 3.5754406, z: 1.3199124}
+        rotationEuler: {x: -0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: prizm
+        position: {x: 2.0501494, y: 3.5754406, z: -0.68008757}
+        rotationEuler: {x: -0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 3.0501494, y: 2.5754406, z: 0.31991243}
+        rotationEuler: {x: -0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: explosive
+        position: {x: 2.0541494, y: 2.1074405, z: 0.3977999}
+        rotationEuler: {x: -0.000004325711, y: 0, z: 0}
+        scale: {x: 39.78, y: 32.06268, z: 39.78}
+      - poolKey: explosive
+        position: {x: -1.9498506, y: 2.1074405, z: 0.3977999}
+        rotationEuler: {x: -0.000004325711, y: 0, z: 0}
+        scale: {x: 39.78, y: 32.06268, z: 39.78}
+      - poolKey: wood
+        position: {x: -0.94985056, y: 2.5754406, z: 0.31991243}
+        rotationEuler: {x: -0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -2.9498506, y: 3.5754406, z: 1.3199124}
+        rotationEuler: {x: -0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: prizm
+        position: {x: -0.94985056, y: 4.5754404, z: 2.3199124}
+        rotationEuler: {x: -0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 3.0501494, y: 2.5754406, z: -0.68008757}
+        rotationEuler: {x: -0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: prizm
+        position: {x: 1.0501494, y: 4.5754404, z: 2.3199124}
+        rotationEuler: {x: -0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: prizm
+        position: {x: -1.9498506, y: 3.5754406, z: 1.3199124}
+        rotationEuler: {x: -0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: prizm
+        position: {x: 2.0501494, y: 3.5754406, z: 1.3199124}
+        rotationEuler: {x: -0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 1.0501494, y: 3.5754406, z: -0.68008757}
+        rotationEuler: {x: -0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: glass
+        position: {x: 2.0501494, y: 2.5754406, z: 1.3199124}
+        rotationEuler: {x: 1.2722219e-15, y: -0, z: -0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -2.9498506, y: 2.5754406, z: -0.68008757}
+        rotationEuler: {x: -0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -0.94985056, y: 2.5754406, z: 2.3199124}
+        rotationEuler: {x: -0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 1.0501494, y: 3.5754406, z: 1.3199124}
+        rotationEuler: {x: -0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -0.94985056, y: 3.5754406, z: 2.3199124}
+        rotationEuler: {x: -0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 3.0501494, y: 3.5754406, z: -0.68008757}
+        rotationEuler: {x: -0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -2.9498506, y: 2.5754406, z: 1.3199124}
+        rotationEuler: {x: -0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -0.94985056, y: 3.5754406, z: 0.31991243}
+        rotationEuler: {x: -0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -2.9498506, y: 3.5754406, z: -0.68008757}
+        rotationEuler: {x: -0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: prizm
+        position: {x: 0.05014944, y: 3.5754406, z: 3.3199124}
+        rotationEuler: {x: -0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: -0.94985056, y: 2.5754406, z: 3.3199124}
+        rotationEuler: {x: -0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 1.0501494, y: 2.5754406, z: -0.68008757}
+        rotationEuler: {x: -0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: wood
+        position: {x: 1.0501494, y: 2.5754406, z: 0.31991243}
+        rotationEuler: {x: -0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      platformSpawns:
+      - poolKey: squarePlatform
+        position: {x: 2, y: 2.0415049, z: 0}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: squarePlatform
+        position: {x: -2, y: 2.0415049, z: 0}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: squarePlatform
+        position: {x: 0, y: 2.0415049, z: 2}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+    - id: MiniLevel4
+      ammoCount: 5
+      blockSpawns:
+      - poolKey: glass
+        position: {x: -0.06987666, y: 4.5754414, z: -0.7300875}
+        rotationEuler: {x: 1.2722219e-15, y: -0, z: -0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: glass
+        position: {x: 0.93014956, y: 3.5754406, z: 1.2699125}
+        rotationEuler: {x: 1.2722219e-15, y: -0, z: -0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: glass
+        position: {x: -1.0698767, y: 4.5754414, z: 1.2699125}
+        rotationEuler: {x: 1.2722219e-15, y: -0, z: -0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: glass
+        position: {x: -1.0698504, y: 3.5754406, z: 1.2699125}
+        rotationEuler: {x: 1.2722219e-15, y: -0, z: -0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: glass
+        position: {x: 0.93014956, y: 3.5754406, z: -0.7300875}
+        rotationEuler: {x: 1.2722219e-15, y: -0, z: -0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: glass
+        position: {x: -0.0698502, y: 2.5754406, z: 1.2699125}
+        rotationEuler: {x: 1.2722219e-15, y: -0, z: -0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: glass
+        position: {x: -0.0698502, y: 2.5754406, z: -0.7300875}
+        rotationEuler: {x: 1.2722219e-15, y: -0, z: -0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: glass
+        position: {x: -1.0698767, y: 4.5754414, z: -0.7300875}
+        rotationEuler: {x: 1.2722219e-15, y: -0, z: -0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: glass
+        position: {x: -1.0698504, y: 3.5754406, z: -0.7300875}
+        rotationEuler: {x: 1.2722219e-15, y: -0, z: -0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: glass
+        position: {x: 0.93014956, y: 3.5754406, z: 0.26991248}
+        rotationEuler: {x: 1.2722219e-15, y: -0, z: -0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: glass
+        position: {x: -1.0698504, y: 2.5754406, z: 0.26991248}
+        rotationEuler: {x: 1.2722219e-15, y: -0, z: -0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: glass
+        position: {x: -0.06987666, y: 4.5754414, z: 1.2699125}
+        rotationEuler: {x: 1.2722219e-15, y: -0, z: -0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: glass
+        position: {x: -1.0698767, y: 4.5754414, z: 0.26991248}
+        rotationEuler: {x: 1.2722219e-15, y: -0, z: -0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: glass
+        position: {x: -0.0698502, y: 2.5754406, z: 0.26991248}
+        rotationEuler: {x: 1.2722219e-15, y: -0, z: -0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: glass
+        position: {x: 0.93014956, y: 2.5754406, z: 0.26991248}
+        rotationEuler: {x: 1.2722219e-15, y: -0, z: -0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: glass
+        position: {x: -0.06985044, y: 3.5754406, z: 1.2699125}
+        rotationEuler: {x: 1.2722219e-15, y: -0, z: -0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: glass
+        position: {x: 0.9301233, y: 4.5754414, z: 1.2699125}
+        rotationEuler: {x: 1.2722219e-15, y: -0, z: -0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: glass
+        position: {x: -1.0698504, y: 3.5754406, z: 0.26991248}
+        rotationEuler: {x: 1.2722219e-15, y: -0, z: -0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: glass
+        position: {x: 0.9301233, y: 4.5754414, z: 0.26991248}
+        rotationEuler: {x: 1.2722219e-15, y: -0, z: -0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: glass
+        position: {x: 0.93014956, y: 2.5754406, z: -0.7300875}
+        rotationEuler: {x: 1.2722219e-15, y: -0, z: -0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: glass
+        position: {x: -0.06987666, y: 4.5754414, z: 0.26991248}
+        rotationEuler: {x: 1.2722219e-15, y: -0, z: -0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: glass
+        position: {x: 0.9301233, y: 4.5754414, z: -0.7300875}
+        rotationEuler: {x: 1.2722219e-15, y: -0, z: -0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: glass
+        position: {x: -1.0698504, y: 2.5754406, z: 1.2699125}
+        rotationEuler: {x: 1.2722219e-15, y: -0, z: -0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: glass
+        position: {x: -1.0698504, y: 2.5754406, z: -0.7300875}
+        rotationEuler: {x: 1.2722219e-15, y: -0, z: -0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: glass
+        position: {x: 0.93014956, y: 2.5754406, z: 1.2699125}
+        rotationEuler: {x: 1.2722219e-15, y: -0, z: -0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: glass
+        position: {x: -0.06985044, y: 3.5754406, z: 0.26991248}
+        rotationEuler: {x: 1.2722219e-15, y: -0, z: -0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: glass
+        position: {x: -0.06985044, y: 3.5754406, z: -0.7300875}
+        rotationEuler: {x: 1.2722219e-15, y: -0, z: -0}
+        scale: {x: 1, y: 1, z: 1}
+      platformSpawns:
+      - poolKey: squarePlatform
+        position: {x: -0.12, y: 2.0415049, z: -0.05}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+    - id: MiniLevel5
+      ammoCount: 10
+      blockSpawns:
+      - poolKey: hay
+        position: {x: 3.775, y: 2.6754408, z: 1.042}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 0.6, y: 0.6, z: 0.6}
+      - poolKey: hay
+        position: {x: 1.375, y: 2.6754408, z: 1.042}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 0.6, y: 0.6, z: 0.6}
+      - poolKey: hay
+        position: {x: -0.6, y: 3.8754406, z: -1.167}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 0.6, y: 0.6, z: 0.6}
+      - poolKey: hay
+        position: {x: -1.08, y: 2.6754408, z: 1.042}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 0.6, y: 0.6, z: 0.6}
+      - poolKey: hay
+        position: {x: 0.05400002, y: 2.6754408, z: -1.148}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 0.6, y: 0.6, z: 0.6}
+      - poolKey: hay
+        position: {x: 2.5750003, y: 2.6754408, z: 1.042}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 0.6, y: 0.6, z: 0.6}
+      - poolKey: hay
+        position: {x: -2.315, y: 5.0754404, z: 1.023}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 0.6, y: 0.6, z: 0.6}
+      - poolKey: hay
+        position: {x: -1.734, y: 3.8754406, z: 1.023}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 0.6, y: 0.6, z: 0.6}
+      - poolKey: hay
+        position: {x: 2.5400002, y: 5.0754404, z: 1.023}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 0.6, y: 0.6, z: 0.6}
+      - poolKey: hay
+        position: {x: -1.1460001, y: 2.6754408, z: -1.148}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 0.6, y: 0.6, z: 0.6}
+      - poolKey: hay
+        position: {x: -3.48, y: 2.6754408, z: 1.042}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 0.6, y: 0.6, z: 0.6}
+      - poolKey: hay
+        position: {x: -2.28, y: 2.6754408, z: 1.042}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 0.6, y: 0.6, z: 0.6}
+      - poolKey: hay
+        position: {x: 3.1210003, y: 3.8754406, z: 1.023}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 0.6, y: 0.6, z: 0.6}
+      - poolKey: hay
+        position: {x: 0.019000053, y: 5.0754404, z: -1.167}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 0.6, y: 0.6, z: 0.6}
+      - poolKey: hay
+        position: {x: 1.254, y: 2.6754408, z: -1.148}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 0.6, y: 0.6, z: 0.6}
+      - poolKey: hay
+        position: {x: 0.6, y: 3.8754406, z: -1.167}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 0.6, y: 0.6, z: 0.6}
+      - poolKey: hay
+        position: {x: -2.934, y: 3.8754406, z: 1.023}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 0.6, y: 0.6, z: 0.6}
+      - poolKey: hay
+        position: {x: 1.9210001, y: 3.8754406, z: 1.023}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 0.6, y: 0.6, z: 0.6}
+      platformSpawns:
+      - poolKey: platform
+        position: {x: 2.5210001, y: 2.0415049, z: 0.656}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: platform
+        position: {x: 0, y: 2.0415049, z: -1.534}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}
+      - poolKey: platform
+        position: {x: -2.334, y: 2.0415049, z: 0.656}
+        rotationEuler: {x: 0, y: 0, z: 0}
+        scale: {x: 1, y: 1, z: 1}

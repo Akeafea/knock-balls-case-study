@@ -1,0 +1,23 @@
+# Local asset references retained in source files; raw assets omitted from publication.
+# This is a reference inventory, not a redistribution license.
+Assets/Kyeoms_FX/Prefabs/FX_Explosion_A_1_air.prefab
+Assets/Materials/BaseMaps/ChatGPT Image 27 Ağu 2025 11_56_23.png
+Assets/Materials/BaseMaps/e82c073a-b618-42f4-abd4-e3147ff6df69.jpg
+Assets/Materials/BaseMaps/stylized-textures--vol-155--straw-10.jpg
+Assets/Models/Barrel.fbx
+Assets/Models/Cannon.fbx
+Assets/SFX/cannon.wav
+Assets/SFX/Explosion1.mp3
+Assets/SFX/glassbreak (1).wav
+Assets/SFX/wood.wav
+Assets/Sprites/Ellipse 3.png
+Assets/Sprites/Ellipse 4.png
+Assets/Sprites/Group 1.png
+Assets/Sprites/Group 19.png
+Assets/Sprites/Group 2.png
+Assets/Sprites/loseUI.png
+Assets/Sprites/Rectangle 2 (1).png
+Assets/Sprites/Rectangle 6.png
+Assets/Sprites/SoundIcon.png
+Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+Assets/Vefects/Trails VFX URP/VFX/Particles/VFX_Trail_Earth.prefab

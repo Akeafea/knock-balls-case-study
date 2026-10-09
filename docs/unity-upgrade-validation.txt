@@ -1,0 +1,6 @@
+PASS
+Unity 6000.6.4f1
+Legacy graphic/layout/sprite round-trip, including scene save/reload
+Menu pause, level/pool initialization, play button event/resume, ball firing
+Theme change and lose/cancel flow
+Three-second gameplay smoke check: no errors

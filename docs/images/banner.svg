@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="460" viewBox="0 0 1400 460" role="img" aria-labelledby="title desc">
+  <title id="title">Knock Balls — Two-day Unity case study</title>
+  <desc id="desc">A navy and gold project banner with a stylized cannon, projectile arc and falling blocks.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101b2b"/><stop offset="1" stop-color="#253d54"/></linearGradient>
+    <linearGradient id="block" x1="0" y1="1" x2="0" y2="0"><stop stop-color="#db9c35"/><stop offset="1" stop-color="#f3d768"/></linearGradient>
+    <pattern id="grid" width="46" height="46" patternUnits="userSpaceOnUse"><path d="M 46 0 L 0 0 0 46" fill="none" stroke="#94b3c7" stroke-opacity=".06"/></pattern>
+  </defs>
+  <rect width="1400" height="460" rx="24" fill="url(#bg)"/>
+  <rect width="1400" height="460" rx="24" fill="url(#grid)"/>
+  <circle cx="1180" cy="150" r="200" fill="#9bd7ba" opacity=".04"/>
+  <rect x="70" y="64" width="230" height="34" rx="17" fill="#f2ce45"/>
+  <text x="185" y="87" text-anchor="middle" fill="#101b2b" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" letter-spacing="2">TWO-DAY CASE STUDY</text>
+  <text x="70" y="202" fill="#f7f4e9" font-family="Arial, Helvetica, sans-serif" font-size="82" font-weight="700" letter-spacing="-2">KNOCK BALLS</text>
+  <text x="74" y="252" fill="#b7c9d7" font-family="Arial, Helvetica, sans-serif" font-size="25">A physics-driven arcade clone, built in Unity.</text>
+  <path d="M74 296h590" stroke="#698498" stroke-opacity=".4"/>
+  <text x="74" y="342" fill="#f2ce45" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" letter-spacing="2">AIM. COLLAPSE. ADVANCE.</text>
+  <text x="74" y="394" fill="#91abbe" font-family="Arial, Helvetica, sans-serif" font-size="15" letter-spacing="1">C#  /  OBJECT POOLING  /  DATA-DRIVEN LEVELS</text>
+  <g transform="translate(830 38)">
+    <path d="M105 215 Q235 12 418 150" fill="none" stroke="#9bd7ba" stroke-width="3" stroke-dasharray="7 12" opacity=".6"/>
+    <circle cx="270" cy="85" r="12" fill="#e3ecf2"/>
+    <g transform="translate(12 210) rotate(-25 60 80)"><rect x="22" y="0" width="75" height="160" rx="14" fill="#718293"/><rect x="22" y="14" width="75" height="10" fill="#f2ce45"/><rect x="22" y="113" width="75" height="10" fill="#f2ce45"/><ellipse cx="59" cy="7" rx="29" ry="9" fill="#142234"/></g>
+    <circle cx="91" cy="320" r="48" fill="#a67443"/><circle cx="91" cy="320" r="31" fill="#172538"/><circle cx="91" cy="320" r="12" fill="#f2ce45"/>
+    <path d="M65 353h142" stroke="#a67443" stroke-width="16" stroke-linecap="round"/>
+    <rect x="319" y="267" width="187" height="15" rx="6" fill="#627b8d"/>
+    <g fill="url(#block)"><rect x="331" y="218" width="46" height="46" rx="5"/><rect x="382" y="218" width="46" height="46" rx="5"/><rect x="433" y="218" width="46" height="46" rx="5"/><rect x="355" y="166" width="46" height="46" rx="5"/><rect x="407" y="166" width="46" height="46" rx="5"/><rect x="380" y="113" width="46" height="46" rx="5"/><rect x="459" y="104" width="46" height="46" rx="5" transform="rotate(28 482 127)"/></g>
+    <path d="M442 77l12-19m45 114l24 7m-72-25l19 4" stroke="#f2ce45" stroke-width="4" stroke-linecap="round"/>
+    <text x="419" y="348" text-anchor="middle" fill="#9bd7ba" font-family="Arial, Helvetica, sans-serif" font-size="18" letter-spacing="2">3 LEVELS · 15 STAGES</text>
+  </g>
+</svg>

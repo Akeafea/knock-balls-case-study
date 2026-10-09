@@ -1,0 +1,61 @@
+# Unity-generated data and local editor state
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+.vs/
+.idea/
+.history/
+*.csproj
+*.sln
+*.slnx
+*.suo
+*.user
+*.pidb
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+.DS_Store
+Thumbs.db
+sysinfo.txt
+*.apk
+*.aab
+*.unitypackage
+
+# Credentials and local publishing scripts
+.env
+.env.*
+!.env.example
+*.keystore
+*.jks
+*.p12
+*.pem
+
+# Third-party / unverified raw assets intentionally absent from this source release
+/Assets/Kyeoms_FX/
+/Assets/Kyeoms_FX.meta
+/Assets/Vefects/
+/Assets/Vefects.meta
+/Assets/Plugins/
+/Assets/Plugins.meta
+/Assets/Models/
+/Assets/Models.meta
+/Assets/Sprites/
+/Assets/Sprites.meta
+/Assets/SFX/
+/Assets/SFX.meta
+/Assets/Materials/BaseMaps/
+/Assets/Materials/BaseMaps.meta
+/Assets/TextMesh Pro/
+/Assets/TextMesh Pro.meta
+/Assets/Resources/DOTweenSettings.asset
+/Assets/Resources/DOTweenSettings.asset.meta
+
+# Local case-study build validation
+/Validation/
